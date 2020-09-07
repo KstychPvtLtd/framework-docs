@@ -1,4 +1,4 @@
-# Modules in Lowcode
+# Modules in Lowcode Framework
 
 To create an application in **LowCode** you must create a **Module** . You can create your application by dividing its functionality in different small modules or you can create a single module for whole application.
 
@@ -8,7 +8,7 @@ To create a Module open **Designer Tab** and select **Module** from sidebar. You
 
 ![Module Demo](Imgs/Module_demo.png "Module Apperance")
 
-#### Let's Understand all Values in Module.
+#### Let's Understand all Options in Module Menu.
 
 - **Modules**
 	
@@ -78,6 +78,7 @@ Now all the views,controller are access with same url. Learn about **Routing & N
 
 ![output](Imgs/homeoutput.png "output of localhost/todoapp")
 
+---
 ---
 
 ## Next Step - [Learn About Routings in Lowcode]()

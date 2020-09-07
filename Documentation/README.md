@@ -5,6 +5,7 @@ LowCode Framework for general purpose App development in a fraction of time Visi
 # Docs 
 
 - [LowCode Framework Installation](docs/Installation.md)
-- [Basics of LowCode](docs/basic.md)
-- [Routes in LowCode](docs/routes.md)
+- [Module Creation](docs/Modules.md)
+- [Routing in Lowcode](docs/Routing.md)
+- [Views in Lowcode](docs/Views.md)
 

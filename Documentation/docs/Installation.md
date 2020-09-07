@@ -2,6 +2,15 @@
 
 LowCode Framework is provided as a self-contained [Docker](https://www.docker.com/) image.So, before using LowCode, make sure you have Docker installed on your machine.
 
+## Table of Content
+
+- [Installing Docker](#installing-docker)
+- [Installing Framework](#installing-framework)
+- [Cloning Framework Script and Running Framework](#cloning-framework-script-and-running-framework)
+- [Framework Preview](#framework-preview)
+
+## Installing Docker
+
 If you don't have docker so installed it by running below command
 - For Ubuntu **sudo apt-get install docker-ce**
 - For Arch **sudo pacman -S docker**
@@ -9,15 +18,17 @@ If you don't have docker so installed it by running below command
 
 **Important note** - For using Docker,Lowcode you need to switch your terminal to root (command for root - sudo su) 
 
+## Installing Framework
 Once you have Docker installed then change your terminal to root and Pull Lowcode Framework Image by running below commands
 	
 	sudo su
 	docker pull kstych/framework
 
 
+## Cloning Framework Script and Running Framework
 Once the Image Pull process is complete then clone this https://github.com/kstych/framework repo at your Desktop or anywhere you want and then run the script named **kstych.sh** provided in that repo. This hassle-free Script will setup all the things for you.
 
-Steps to setup:- 
+Steps to Setup:- 
 ---	
 
 - **Cloning Repo :-**
@@ -37,6 +48,9 @@ Steps to setup:-
 
 	 	Default login : admin / yb9738z
 
+
+---
+## Framework Preview
 
 ![Framework Preview](Imgs/App_Preview.png "Framework Preview")
 
