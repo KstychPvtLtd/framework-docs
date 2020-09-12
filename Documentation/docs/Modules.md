@@ -69,7 +69,7 @@ Suppose the name of our application is **TodoApp**  and we want to add **Task** 
 
 ![Sample Module](Imgs/SampleModule.png "SampleTodoModule ")
 
-So when you click the **Save Settings** button your module will be created now to you add this module in your existing role or create a new to role and add this module in that so that User with that role can access our newly created Module. If you don't do this you will get error 
+So when you click the **Save Settings** button your module will be created now you have to add this module in your existing role or create a new to role and add this module in that so that User with that role can access our newly created Module. If you don't do this you will get error 
 **403 Unauthorized** 
 
 Once you are done with role & user config. then you can test your application using **localhost/todoapp** url in browser.

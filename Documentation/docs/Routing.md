@@ -5,8 +5,8 @@ In **Lowcode Framework** Routing is very simple. All Routes to **Views** or **Co
 
 Lowcode routes works in two ways:-
 
-- **[Resource Routes]()**
-- **[Custom Routes]()**
+- **[Resource Routes](#resource-routes)**
+- **[Custom Routes](#custom-routes)**
 
 Let's undestand Both one by one:- 
 
@@ -58,7 +58,7 @@ Ex-2:- To access the show page, URL will be :- **localhost/{key}**
 
 ![Show Route](Imgs/showroute.png "Show Route URL")
 
-**Learn more about Views in Lowcode [here]().**
+**Learn more about Views in Lowcode [here](Views.md).**
 
 ### Resource Route Path for Controllers
 **Views** are used for simpler cases where you directly open the Pages But for processing some operation before loading the page We need **Controllers** passing requests through **Controller** classes is required in any non trivial application.Controllers are the entry point for all custom business logic.
@@ -74,7 +74,7 @@ For Example if a Module name is **"Test"** and it have a Controller named **Main
 | GET  | /**test**/**main**/{key} | **test**.show | custom/ext/packages/**test**/Controller/**Main**.php @ show |
 | GET  | /**test**/**main**/create | **test**.create | custom/ext/packages/**test**/Controller/**Main**.php @ create |
 | POST | /**test**/**main** | **test**.store | custom/ext/packages/**test**/Controller/**Main**.php @ store |
-| GET  | /**test**/**main**/create | **test**.edit | custom/ext/packages/**test**/Controller/**Main**.php @ edit |
+| GET  | /**test**/**main**/{key}/edit | **test**.edit | custom/ext/packages/**test**/Controller/**Main**.php @ edit |
 | POST (@method('put')) | /**test**/**main**/{key} | **test**.update | custom/ext/packages/**test**/Controller/**Main**.php @ update |
 | POST (@method('delete'))| /**test**/**main**/{key} | **test**.destroy | custom/ext/packages/**test**/Controller/**Main**.php @ destroy |
 
