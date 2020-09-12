@@ -36,8 +36,12 @@ To create a Module open **Designer Tab** and select **Module** from sidebar. You
 	- **Lowcode Dashboard** helps you to manage Models,Views and other stuff regarding that particular module very easily Learn more about Dashboard [here](Dashboard.md).
 
 - **Route Hash**
+	
+	**Route Hash** is used in managing internal UI that is provided by framework. 
 
 - **Index Sidebar**
+	
+	**Index Sidebar** it is also a part of internal UI that let you create a sidebar of your models.
 
 - **Access User**
 
@@ -81,7 +85,7 @@ Now all the views,controller are access with same url. Learn about **Routing & N
 ---
 ---
 
-## Next Step - [Learn About Routings in Lowcode]()
+## Next Step - [Learn About Routings in Lowcode](Routing.md)
 
 
 
